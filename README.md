@@ -4,21 +4,21 @@ Node JS Microservices
 
 ### What is this repository for?
 
-- Quick summary
+- Quick summary :
   This repository is created for the sample microservice implementation with internal communications
-- Version
+- Version :
   node V 8.0 greater
 
 ### How do I get set up?
 
-- Summary of set up
+- Summary of set up :
   Setup is configured in `bin` folder
 
-  - Configuration & Dependencies
+  - Configuration & Dependencies :
     To setup development run `setup.sh` file
 
-  - Deployment instructions
-    To deploy microservices in server run `service-start.sh` file
+  - Deployment instructions :
+    To deploy microservices in server run `service-start.sh` file, 
     To stop deployed microservices in server run `service-stop.sh` file
 
 ### Repo concept
