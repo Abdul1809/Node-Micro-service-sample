@@ -1,0 +1,21 @@
+{
+  "name": "microservice-sample",
+  "version": "1.0.0",
+  "description": "Micro service root directory",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gateway-start": "nodemon Gateway/server.js",
+    "service1-start": "nodemon service1/server.js",
+    "service2-start": "nodemon service2/server.js"
+  },
+  "keywords": [
+    "Micro",
+    "service"
+  ],
+  "author": "Abdul Hameed P",
+  "license": "ISC",
+  "dependencies": {
+    "express-pino-logger": "^4.0.0",
+    "nodemon": "^1.18.10"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "url":"http://localhost:",
+  "port": {
+    "gatewayService": 3000,
+    "service1": 3001,
+    "service2": 3002
+  },
+  "serviceUrl":{
+    "service1":"/app1/*",
+    "service2":"/app2/*"
+  }
+}
